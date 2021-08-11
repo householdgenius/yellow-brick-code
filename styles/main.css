@@ -1,0 +1,55 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: lightskyblue;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+    display: inline;
+
+}
+.main_friends {
+    background-color: lightslategray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.friend{
+    max-width: 200px;
+    height: 400px;
+    overflow: hidden;
+    background-color: lightyellow;
+
+}
+.friend img {
+    width: 100%;
+    height: auto;
+}
+main {
+    display: flex;
+}
+.main_content {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}
+.main_content img {
+    width: 100%;
+}
+footer {
+    background-color: black;
+    
+}
+footer nav {
+    color: white; 
+}
